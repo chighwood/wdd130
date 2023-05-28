@@ -70,9 +70,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 60px;
+  max-width: 1060px;
 }
 .red3 {
-  width: 1060px; 
+  width: 1025px; 
   height: 100px; 
   background-color: red; 
   grid-column: 1/3;
@@ -89,7 +90,7 @@
 
 } 
 .blue3 {
-  width: 1060px;
+  width: 1025px;
   height: 100px; 
   background-color: blue;
   grid-column: 1/3; 

@@ -207,7 +207,12 @@ main2 {
 }
 h2 {
     margin-top: 60px;
+
+/*CSS for Form*/
+
 }
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

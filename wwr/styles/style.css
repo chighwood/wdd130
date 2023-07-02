@@ -212,7 +212,7 @@ h2 {
 
 form {
 /* Center the form on the page */
-margin: 0 ;
+margin: auto ;
 width: 300%;
 /* Form outline */
 padding: 1em;
@@ -234,7 +234,7 @@ label {
 /* Uniform size & alignment */
 display: inline-block;
 width: 90px;
-text-align: right;
+text-align: center;
 }
 
 input, textarea {

@@ -50,8 +50,30 @@ main section img {
     text-align: center;
 }
 .button-box {
-    text-align: center;
+    margin: auto;
 }
+.button-box {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4169E1;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 18%;
+}
+      
+.button-box:hover {background-color: #4169E1}
+      
+.button-box:active {
+    background-color: #4169E1;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 main {
     text-align: center;
     display: grid;
@@ -329,3 +351,4 @@ margin-top: 3em;
         margin-top: 25px;
     }
 }
+

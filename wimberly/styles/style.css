@@ -1,7 +1,4 @@
-#content {
-    max-width: 1000px;
-    margin: auto;
-}
+
 header {
     background-color: #556B2F;
     display: grid;
@@ -71,7 +68,7 @@ body {
 }
 .card-img {
     border: 7px solid black;
-    width: 25%;
+    width: 300px;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
     margin-left: 30px;
@@ -84,7 +81,7 @@ body {
     padding: 10px;
     background-color: #FAEBD7;
     color: #556B2F;
-    margin-top: 30px ;
+    margin-top: 50px ;
 }
 footer {
     background-color:#556B2F;
@@ -105,7 +102,7 @@ h4 {
 footer {
     color:white;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -161,6 +158,7 @@ footer .social img {
     padding: 10px;
     background-color: #FAEBD7;
     color: #556B2F;    
+    font-family: "Bookman";
 }
 .handicraft-grid {
     grid-template-columns: 600px 600px;
@@ -169,4 +167,49 @@ footer .social img {
     justify-items: center;
     align-content: space-evenly;
     align-items: center;
+
+}
+
+/* Info/Maps */
+
+.info-card {
+    width: 1000px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: "Bookman";
+}
+.map-img {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    border: 5px solid #5E472D ;
+    padding: 10px;
+    background-color: #FAEBD7;
+    color: #556B2F;  
+}
+.info-img {
+    width: 20%;
+    margin: auto;
+    border: 7px solid #5E472D;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 30px;
+}
+.info-card p {
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    border: 5px solid #5E472D ;
+    padding: 10px;
+    background-color: #FAEBD7;
+    color: #556B2F;    
+    font-family: "Bookman";
+}
+.info-grid {
+    margin: auto;
+    justify-content: space-evenly;
+    justify-items: center;
+  
 }

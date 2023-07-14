@@ -67,7 +67,7 @@ body {
     grid-row: auto;
 }
 .card-img {
-    border: 7px solid black;
+    border: 5px solid black;
     width: 300px;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
